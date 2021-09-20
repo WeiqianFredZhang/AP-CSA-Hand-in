@@ -46,7 +46,7 @@ public class Main {
         double g_1 = 3, r = 2; k = 3;
         // stores the sum of the geometric series
         double geometricSum = g_1 * ((1 - Math.pow(r, k)) / (1 - r));
-        // outputs the geometric sequence's start and common ratio. outputs its sum
+        // outputs the geometric sequence's start term and common ratio. then outputs its sum
         System.out.println("SUM OF A FINITE GEOMETRIC SERIES\nThe sum of the first " + (int) k + " terms of a finite geometric series that starts with " + g_1 + " and increases by a rate of " + r + " is " + geometricSum);
     }
 }
