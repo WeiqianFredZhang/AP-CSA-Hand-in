@@ -42,8 +42,10 @@ public class Main {
         System.out.println("SUM OF AN ARITHMETIC SERIES\nThe sum of the first " + (int) k + " terms of an arithmetic series that starts with " + a_1 + " and increases by " + d + " is " + arithmeticSum + "\n");
 
 
-        // declared k is the number of terms in the geometric sequence, g_1 is the first term of the geometric sequence, and r is the common ratio between each term
-        double g_1 = 3, r = 2; k = 3;
+        // declared g_1 is the first term of the geometric sequence and r is the common ratio between each term
+        double g_1 = 3, r = 2;
+        // updated the value of k, which is now the number of terms in the geometric sequence
+        k = 3;
         // stores the sum of the geometric series
         double geometricSum = g_1 * ((1 - Math.pow(r, k)) / (1 - r));
         // outputs the geometric sequence's start term and common ratio. then outputs its sum
