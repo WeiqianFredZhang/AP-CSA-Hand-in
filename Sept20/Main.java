@@ -38,7 +38,7 @@ public class Main {
         double a_k = a_1 + (k - 1) * d;
         // stores the sum of the arithmetic series
         double arithmeticSum = (k / 2) * (a_1 + a_k);
-        // outputs the arithmetic sequence's start, end, and difference. outputs its sum
+        // outputs the arithmetic sequence's start, end, and difference. then outputs its sum
         System.out.println("SUM OF AN ARITHMETIC SERIES\nThe sum of the first " + (int) k + " terms of an arithmetic series that starts with " + a_1 + " and increases by " + d + " is " + arithmeticSum + "\n");
 
 
