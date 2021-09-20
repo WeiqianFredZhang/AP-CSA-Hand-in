@@ -6,7 +6,7 @@
 
 public class Main {
     public static void main(String[] args) {
-        // declared a is the coefficient of x^2, b is the coefficient of x, and c is a constant
+        // the declared variable a is the coefficient of x^2, b is the coefficient of x, and c is a constant
         double a = 1, b = 5, c = 6;
         // calculates one possible quadratic solution using the quadratic formula
         double rootOne = (-b - Math.sqrt(b * b - 4 * a * c)) / (2 * a);
@@ -32,7 +32,7 @@ public class Main {
         System.out.println("MIDPOINT FORMULA\nThe midpoint between " + coordinatePairs + " is (" + midPointX + ", " + midPointY + ")\n");
 
 
-        // declared k is the number of terms in the arithmetic sequence, a_1 is the first term of the arithmetic sequence, and d is the difference between each term in the sequence
+        // the declared variable k is the number of terms in the arithmetic sequence, a_1 is the first term of the arithmetic sequence, and d is the difference between each term in the sequence
         double k = 5, a_1 = 1, d = 1;
         // calculates the kth term of the arithmetic sequence
         double a_k = a_1 + (k - 1) * d;
@@ -42,7 +42,7 @@ public class Main {
         System.out.println("SUM OF AN ARITHMETIC SERIES\nThe sum of the first " + (int) k + " terms of an arithmetic series that starts with " + a_1 + " and increases by " + d + " is " + arithmeticSum + "\n");
 
 
-        // declared g_1 is the first term of the geometric sequence and r is the common ratio between each term
+        // the declared variable g_1 is the first term of the geometric sequence and r is the common ratio between each term
         double g_1 = 3, r = 2;
         // updates the value of k, which is now the number of terms in the geometric sequence
         k = 3;
