@@ -12,7 +12,7 @@ public class Main {
         double rootOne = (-b - Math.sqrt(b * b - 4 * a * c))/(2*a);
         // stores the other possible quadratic solution
         double rootTwo = (-b + Math.sqrt(b * b - 4 * a * c))/(2*a);
-        // outputs the quadratic coefficients and this quadratic's solution
+        // outputs the quadratic coefficients and this quadratic function's solution
         System.out.println("QUADRATIC FORMULA\nThe solutions for "+ (int)a +"x^2 + "+ (int)b +"x + "+ (int)c +" are " + rootOne + " " + rootTwo + ".\n");
 
 
