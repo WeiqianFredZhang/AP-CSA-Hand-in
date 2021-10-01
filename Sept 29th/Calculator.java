@@ -43,9 +43,9 @@ public class Calculator {
         double a = 1, b = 5, c = 6;
         // declares two coordinate pairs: (x1, y1) and (x2, y2)
         double x1 = 0, x2 = 2, y1 = 0, y2 = 3;
-        // the declared variable k is the number of terms in the arithmetic sequence, a_1 is the first term of the arithmetic sequence, and d is the difference between each term in the sequence
+        // the declared variable k_a is the number of terms in the arithmetic sequence, a_1 is the first term of the arithmetic sequence, and d is the difference between each term in the sequence
         double k_a = 5, a_1 = 1, d = 1;
-        // the declared variable g_1 is the first term of the geometric sequence and r is the common ratio between each term
+        // the declared variable g_1 is the first term of the geometric sequence, r is the common ratio between each term, and k_g is the number of terms in the geometric sequence
         double g_1 = 3, r = 2, k_g = 3;
 
         // outputs the quadratic coefficients and this quadratic function's solutions
