@@ -18,7 +18,7 @@ public class Calculator {
     }
 
     // returns the midpoint coordinates using the midpoint formula
-    // return type: type[]
+    // return type: double[]
     double[] midPoint(double x1, double x2, double y1, double y2) {
         return new double[]{(x1 + x2) / 2, (y1 + y2) / 2};
     }
