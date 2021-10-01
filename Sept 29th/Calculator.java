@@ -49,7 +49,8 @@ public class Calculator {
         double g_1 = 3, r = 2, k_g = 3;
 
         // outputs the quadratic coefficients and this quadratic function's solutions
-        System.out.println("QUADRATIC FORMULA\nThe solutions for " + (int) a + "x^2 + " + (int) b + "x + " + (int) c + " are " + quadraticFormula(a, b, c)[0] + " " + quadraticFormula(a, b, c)[1] + ".\n");
+        System.out.println("QUADRATIC FORMULA\nThe solutions for " + (int) a + "x^2 + " + (int) b + "x + " + (int) c + " are " + quadraticFormula(a, b, c)[0] + " and " + quadraticFormula(a, b, c)[1] + ".\n");
+        // stores the String version of the coordinate pairs
         String coordinatePairs = "(" + (int) x1 + ", " + (int) y1 + ") and (" + (int) x2 + ", " + (int) y2 + ")";
         // outputs the slope of the two coordinate pairs
         System.out.println("SLOPE FORMULA\nA line connecting the points " + coordinatePairs + " has a slope of " + calculateSlope(x1, x2, y1, y2) + "\n");
